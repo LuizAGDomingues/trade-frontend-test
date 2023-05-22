@@ -24,10 +24,10 @@ function LoginDialog(props: LoginDialogProps) {
               <button><XCircle size={34} color='red' /></button>
             </Dialog.Close>
           </div>
-          <form action="submit" className='mt-7 mb-2 w-full flex flex-col items-center'>
+          <form action="submit" className='mt-7 mt-2 w-full flex flex-col items-center'>
             <label htmlFor="">Entre com a sua chave da API football:</label>
             <input type="text" className='bg-[#959EA7] px-3 py-2 w-full placeholder:text-white rounded-lg mt-2' placeholder='***************' />
-            <button type="submit" className='mt-8 bg-[#EFD117] hover:bg-[#c7b332] transition-all border-2 border-[#6B622B] rounded-full w-28 px-7 py-2 text-black font-bold text-lg'>Entrar</button>
+            <button type="submit" className='mt-8 bg-[#EFD117] hover:bg-[#c7b332] transition-all rounded-full w-28 px-7 py-2 text-black font-bold text-lg'>Entrar</button>
           </form>
         </Dialog.Content>
       </Dialog.Portal>

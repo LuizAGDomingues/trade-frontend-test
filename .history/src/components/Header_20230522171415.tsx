@@ -16,7 +16,7 @@ function Header() {
       <div className='flex justify-between gap-32 mt-6 h-7'>
         <NavigationElement href='/' text='Início' />
         <SobreDialog />
-        <NavigationElement href='/times' text='Selecione um time para começar!' />
+        <NavigationElement href='/times' text='Times' />
       </div>
 
     </div>
