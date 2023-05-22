@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Trade test - Football API',
-  description: 'Test para vaga front-end da Trade Technology',
+  description: 'Test para vaga front-end da ',
 }
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )
