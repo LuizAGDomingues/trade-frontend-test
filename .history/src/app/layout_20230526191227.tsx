@@ -15,12 +15,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <head>
-        <title>Trade test- football application</title>
-        <meta charSet='UTF-8'/>
-        <meta name='author' content='Luiz Domingues'/>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </head>
       <body className={inter.className}>
         <QueryClientProvider client={queryClient}>
           {children}
